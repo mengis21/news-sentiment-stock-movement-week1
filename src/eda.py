@@ -20,5 +20,11 @@ def publisher_activity(df: pd.DataFrame, publisher_col: str = "publisher", top_n
 
 def daily_article_counts(df: pd.DataFrame, date_col: str = "date") -> pd.DataFrame:
     """Track how many headlines land per calendar day."""
-    daily = df.groupby(df[date_col].dt.date).size().rename("article_count")
-    return daily.reset_index(names=["date"])
+    daily = (
+        df.assign(day=df[date_col].dt.date)
+        .groupby("day")
+        .size()
+        .reset_index(name="article_count")
+        .rename(columns={"day": "date"})
+    )
+    return daily

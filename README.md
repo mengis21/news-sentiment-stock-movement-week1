@@ -31,13 +31,13 @@ Late interim submission for the 10 Academy Week 1 challenge. The focus is to con
 
 ## Interim goals
 
-| Task                      | Status      | Notes                                 |
-| ------------------------- | ----------- | ------------------------------------- |
-| Git + repo structure      | in progress | folders, CI, env files                |
-| Exploratory data analysis | pending     | `01_interim_analysis.ipynb`           |
-| Technical indicators      | pending     | moving average + RSI helpers          |
-| Sentiment + correlation   | pending     | TextBlob baseline, align with returns |
-| Documentation             | pending     | README + interim PDF                  |
+| Task                      | Status  | Notes                                 |
+| ------------------------- | ------- | ------------------------------------- |
+| Git + repo structure      | ✅ Done | folders, CI, env files                |
+| Exploratory data analysis | ✅ Done | `01_interim_analysis.ipynb`           |
+| Technical indicators      | ✅ Done | moving average + RSI helpers          |
+| Sentiment + correlation   | ✅ Done | TextBlob baseline, align with returns |
+| Documentation             | ✅ Done | README + interim markdown report      |
 
 ## References
 
