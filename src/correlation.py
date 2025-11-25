@@ -4,7 +4,10 @@ from __future__ import annotations
 
 import pandas as pd
 
-from .technical import compute_daily_returns
+try:  # pragma: no cover - fallback for running module directly
+    from .technical import compute_daily_returns
+except ImportError:  # pragma: no cover
+    from src.technical import compute_daily_returns
 
 
 def align_sentiment_with_returns(sentiment_df: pd.DataFrame, price_df: pd.DataFrame) -> pd.DataFrame:
