@@ -17,7 +17,7 @@ def align_sentiment_with_returns(sentiment_df: pd.DataFrame, price_df: pd.DataFr
         how="left",
         suffixes=("_price", "_sentiment"),
     )
-    merged = merged.drop(columns=["date_sentiment"]).rename(columns={"trade_date": "date"})
+    merged = merged.drop(columns=["date_sentiment"], errors="ignore").rename(columns={"trade_date": "date"})
     return merged
 
 

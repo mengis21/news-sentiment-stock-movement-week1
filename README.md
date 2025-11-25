@@ -37,7 +37,7 @@ Late interim submission for the 10 Academy Week 1 challenge. The focus is to con
 | Exploratory data analysis | ✅ Done | `01_interim_analysis.ipynb`           |
 | Technical indicators      | ✅ Done | moving average + RSI helpers          |
 | Sentiment + correlation   | ✅ Done | TextBlob baseline, align with returns |
-| Documentation             | ✅ Done | README + interim markdown report      |
+| Documentation             | ✅ Done | README + interim write-up (external)  |
 
 ## References
 

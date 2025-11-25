@@ -8,7 +8,7 @@ import pandas as pd
 
 from src.data_io import load_news_data, load_stock_data
 from src.eda import headline_length_stats
-from src.sentiment import compute_headline_sentiment
+from src.sentiment import aggregate_daily_sentiment, compute_headline_sentiment
 from src.technical import add_moving_average, add_rsi
 
 
@@ -41,3 +41,13 @@ def test_sentiment_and_indicators_columns() -> None:
     enriched = add_rsi(enriched, window=3)
     assert any(col.startswith("ma_") for col in enriched.columns)
     assert any(col.startswith("rsi_") for col in enriched.columns)
+
+
+def test_sentiment_helpers_handle_empty_frames() -> None:
+    empty_news = pd.DataFrame({"headline": [], "date": []})
+    scored = compute_headline_sentiment(empty_news)
+    assert {"polarity", "subjectivity"}.issubset(scored.columns)
+
+    aggregated = aggregate_daily_sentiment(scored)
+    assert list(aggregated.columns) == ["date", "avg_polarity", "avg_subjectivity"]
+    assert aggregated.empty
