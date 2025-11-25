@@ -4,9 +4,15 @@ from __future__ import annotations
 
 import pandas as pd
 
-try:  # pragma: no cover - fallback for running module directly
+try:  # pragma: no cover - prefer package relative import
     from .technical import compute_daily_returns
-except ImportError:  # pragma: no cover
+except ImportError:  # pragma: no cover - allow running as script
+    import sys
+    from pathlib import Path
+
+    PROJECT_ROOT = Path(__file__).resolve().parents[1]
+    if str(PROJECT_ROOT) not in sys.path:
+        sys.path.insert(0, str(PROJECT_ROOT))
     from src.technical import compute_daily_returns
 
 
