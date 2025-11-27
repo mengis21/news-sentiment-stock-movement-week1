@@ -1,4 +1,4 @@
-# B8W1: Predicting Price Moves with News Sentiment
+I wan # B8W1: Predicting Price Moves with News Sentiment
 
 Applied analytics for the 10 Academy Week 1 challenge: quantify daily financial-news tone, enrich price histories with technical indicators, and benchmark how sentiment correlates with next-day returns.
 
@@ -55,13 +55,13 @@ The latest run (capped at 20k headlines for turnaround) lives in `reports/interi
 
 ## Interim goals
 
-| Task                      | Status  | Notes                                            |
-| ------------------------- | ------- | ------------------------------------------------ |
-| Git + repo structure      | ✅ Done | folders, CI, env files                           |
-| Exploratory data analysis | ✅ Done | `01_interim_analysis.ipynb`                      |
-| Technical indicators      | ✅ Done | MA, RSI, MACD, Bollinger, volatility             |
-| Sentiment + correlation   | ✅ Done | TextBlob + VADER with ticker-level lag alignment |
-| Documentation             | ✅ Done | README + in-repo interim report                  |
+| Task                      | Status | Notes                                            |
+| ------------------------- | ------ | ------------------------------------------------ |
+| Git + repo structure      | Done   | folders, CI, env files                           |
+| Exploratory data analysis | Done   | `01_interim_analysis.ipynb`                      |
+| Technical indicators      | Done   | MA, RSI, MACD, Bollinger, volatility             |
+| Sentiment + correlation   | Done   | TextBlob + VADER with ticker-level lag alignment |
+| Documentation             | Done   | README + in-repo interim report                  |
 
 ## References
 
