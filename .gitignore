@@ -16,6 +16,9 @@ venv/
 /data/external/
 *.sqlite
 
+# Large raw news file (kept locally, not tracked due to size)
+/data/raw/news_headlines.csv
+
 # OS files
 .DS_Store
 Thumbs.db
