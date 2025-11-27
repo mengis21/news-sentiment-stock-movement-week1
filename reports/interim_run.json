@@ -1,0 +1,764 @@
+{
+  "tickers_loaded": [
+    "AAPL",
+    "AMZN",
+    "GOOG",
+    "META",
+    "MSFT",
+    "NVDA"
+  ],
+  "headline_length_stats": {
+    "count": 20000.0,
+    "mean": 73.5864,
+    "std": 40.58884708593468,
+    "min": 9.0,
+    "25%": 47.0,
+    "50%": 64.0,
+    "75%": 88.0,
+    "max": 397.0
+  },
+  "top_publishers": [
+    {
+      "publisher": "Paul Quintaro",
+      "article_count": 3156
+    },
+    {
+      "publisher": "Lisa Levin",
+      "article_count": 2888
+    },
+    {
+      "publisher": "Benzinga Newsdesk",
+      "article_count": 2195
+    },
+    {
+      "publisher": "Charles Gross",
+      "article_count": 1223
+    },
+    {
+      "publisher": "Monica Gerson",
+      "article_count": 1169
+    },
+    {
+      "publisher": "Benzinga Staff",
+      "article_count": 785
+    },
+    {
+      "publisher": "Eddie Staley",
+      "article_count": 753
+    },
+    {
+      "publisher": "Hal Lindon",
+      "article_count": 721
+    },
+    {
+      "publisher": "Zacks",
+      "article_count": 421
+    },
+    {
+      "publisher": "Juan Lopez",
+      "article_count": 404
+    }
+  ],
+  "domain_breakdown": [
+    {
+      "domain": "benzinga.com",
+      "article_count": 20000
+    }
+  ],
+  "hourly_distribution": [
+    {
+      "hour": 0.0,
+      "article_count": 2
+    },
+    {
+      "hour": 1.0,
+      "article_count": 2
+    },
+    {
+      "hour": 3.0,
+      "article_count": 1
+    },
+    {
+      "hour": 4.0,
+      "article_count": 2
+    },
+    {
+      "hour": 8.0,
+      "article_count": 17
+    },
+    {
+      "hour": 9.0,
+      "article_count": 18
+    },
+    {
+      "hour": 10.0,
+      "article_count": 30
+    },
+    {
+      "hour": 11.0,
+      "article_count": 66
+    },
+    {
+      "hour": 12.0,
+      "article_count": 98
+    },
+    {
+      "hour": 13.0,
+      "article_count": 72
+    },
+    {
+      "hour": 14.0,
+      "article_count": 93
+    },
+    {
+      "hour": 15.0,
+      "article_count": 57
+    },
+    {
+      "hour": 16.0,
+      "article_count": 68
+    },
+    {
+      "hour": 17.0,
+      "article_count": 15
+    },
+    {
+      "hour": 18.0,
+      "article_count": 26
+    },
+    {
+      "hour": 19.0,
+      "article_count": 15
+    },
+    {
+      "hour": 20.0,
+      "article_count": 29
+    },
+    {
+      "hour": 21.0,
+      "article_count": 23
+    },
+    {
+      "hour": 22.0,
+      "article_count": 11
+    },
+    {
+      "hour": 23.0,
+      "article_count": 1
+    }
+  ],
+  "daily_articles": [
+    {
+      "date": "2020-05-01",
+      "article_count": 5
+    },
+    {
+      "date": "2020-05-03",
+      "article_count": 1
+    },
+    {
+      "date": "2020-05-04",
+      "article_count": 5
+    },
+    {
+      "date": "2020-05-05",
+      "article_count": 13
+    },
+    {
+      "date": "2020-05-06",
+      "article_count": 11
+    },
+    {
+      "date": "2020-05-07",
+      "article_count": 11
+    },
+    {
+      "date": "2020-05-08",
+      "article_count": 16
+    },
+    {
+      "date": "2020-05-11",
+      "article_count": 4
+    },
+    {
+      "date": "2020-05-12",
+      "article_count": 1
+    },
+    {
+      "date": "2020-05-13",
+      "article_count": 7
+    },
+    {
+      "date": "2020-05-14",
+      "article_count": 7
+    },
+    {
+      "date": "2020-05-15",
+      "article_count": 2
+    },
+    {
+      "date": "2020-05-18",
+      "article_count": 12
+    },
+    {
+      "date": "2020-05-19",
+      "article_count": 6
+    },
+    {
+      "date": "2020-05-20",
+      "article_count": 6
+    },
+    {
+      "date": "2020-05-21",
+      "article_count": 3
+    },
+    {
+      "date": "2020-05-22",
+      "article_count": 14
+    },
+    {
+      "date": "2020-05-23",
+      "article_count": 1
+    },
+    {
+      "date": "2020-05-26",
+      "article_count": 12
+    },
+    {
+      "date": "2020-05-27",
+      "article_count": 9
+    },
+    {
+      "date": "2020-05-28",
+      "article_count": 4
+    },
+    {
+      "date": "2020-05-29",
+      "article_count": 6
+    },
+    {
+      "date": "2020-06-01",
+      "article_count": 12
+    },
+    {
+      "date": "2020-06-02",
+      "article_count": 5
+    },
+    {
+      "date": "2020-06-03",
+      "article_count": 7
+    },
+    {
+      "date": "2020-06-04",
+      "article_count": 5
+    },
+    {
+      "date": "2020-06-05",
+      "article_count": 10
+    },
+    {
+      "date": "2020-06-08",
+      "article_count": 10
+    },
+    {
+      "date": "2020-06-09",
+      "article_count": 9
+    },
+    {
+      "date": "2020-06-10",
+      "article_count": 21
+    }
+  ],
+  "tfidf_terms": [
+    {
+      "term": "stocks",
+      "score": 414.04400690063153
+    },
+    {
+      "term": "market",
+      "score": 343.8737136626443
+    },
+    {
+      "term": "earnings",
+      "score": 291.209150504116
+    },
+    {
+      "term": "vs",
+      "score": 276.5418115466187
+    },
+    {
+      "term": "benzinga",
+      "score": 268.4699083203681
+    },
+    {
+      "term": "alcoa",
+      "score": 261.04575232644555
+    },
+    {
+      "term": "est",
+      "score": 253.7879994925264
+    },
+    {
+      "term": "shares",
+      "score": 239.8824054137803
+    },
+    {
+      "term": "reports",
+      "score": 226.17678202432018
+    },
+    {
+      "term": "eps",
+      "score": 224.64825429682156
+    },
+    {
+      "term": "update",
+      "score": 209.39116365244297
+    },
+    {
+      "term": "week",
+      "score": 206.15776179563372
+    },
+    {
+      "term": "upgrades",
+      "score": 202.03805475665288
+    },
+    {
+      "term": "announces",
+      "score": 201.27580905702263
+    },
+    {
+      "term": "downgrades",
+      "score": 196.40621569066542
+    },
+    {
+      "term": "accenture",
+      "score": 184.28610913363346
+    },
+    {
+      "term": "buy",
+      "score": 182.47141173953244
+    },
+    {
+      "term": "gold",
+      "score": 173.64160299434317
+    },
+    {
+      "term": "pt",
+      "score": 170.14656868507382
+    },
+    {
+      "term": "52",
+      "score": 168.3843890615745
+    },
+    {
+      "term": "price",
+      "score": 164.80062744821677
+    },
+    {
+      "term": "mid",
+      "score": 164.14522856375115
+    },
+    {
+      "term": "session",
+      "score": 163.88537265923912
+    },
+    {
+      "term": "target",
+      "score": 162.67733136498333
+    },
+    {
+      "term": "moving",
+      "score": 159.53579719652234
+    },
+    {
+      "term": "raises",
+      "score": 159.40061066289977
+    },
+    {
+      "term": "52 week",
+      "score": 156.73535758848362
+    },
+    {
+      "term": "stocks moving",
+      "score": 154.2398530737303
+    },
+    {
+      "term": "sales",
+      "score": 151.59306398010025
+    },
+    {
+      "term": "movers",
+      "score": 150.5742467314446
+    },
+    {
+      "term": "price target",
+      "score": 148.64453576873382
+    },
+    {
+      "term": "stock",
+      "score": 147.183653663095
+    },
+    {
+      "term": "day",
+      "score": 146.6986556708272
+    },
+    {
+      "term": "american",
+      "score": 145.79212868697903
+    },
+    {
+      "term": "capital",
+      "score": 144.49802324249927
+    },
+    {
+      "term": "biggest",
+      "score": 143.7772641048421
+    },
+    {
+      "term": "trading",
+      "score": 142.03939593667454
+    },
+    {
+      "term": "maintains",
+      "score": 141.5737158358302
+    },
+    {
+      "term": "scheduled",
+      "score": 140.3309727745857
+    },
+    {
+      "term": "earnings scheduled",
+      "score": 138.69199038877574
+    }
+  ],
+  "lda_topics": [
+    [
+      "vs",
+      "est",
+      "eps",
+      "reports",
+      "sales",
+      "benzinga",
+      "earnings",
+      "sees"
+    ],
+    [
+      "announces",
+      "pt",
+      "buy",
+      "raises",
+      "accenture",
+      "price",
+      "target",
+      "maintains"
+    ],
+    [
+      "stocks",
+      "week",
+      "52",
+      "new",
+      "movers",
+      "yesterday",
+      "actavis",
+      "analyst"
+    ],
+    [
+      "market",
+      "shares",
+      "stocks",
+      "mid",
+      "trading",
+      "session",
+      "higher",
+      "moving"
+    ]
+  ],
+  "sentiment_daily_tail": [
+    {
+      "date": "2020-06-09",
+      "stock": "AAPL",
+      "avg_polarity": 0.08833333333333333,
+      "avg_subjectivity": 0.31166666666666665,
+      "avg_vader_compound": 0.2469
+    },
+    {
+      "date": "2020-06-09",
+      "stock": "ACGL",
+      "avg_polarity": -0.03571428571428571,
+      "avg_subjectivity": 0.24285714285714288,
+      "avg_vader_compound": 0.7506
+    },
+    {
+      "date": "2020-06-10",
+      "stock": "AAL",
+      "avg_polarity": -0.004475308641975308,
+      "avg_subjectivity": 0.28132716049382717,
+      "avg_vader_compound": 0.060200000000000004
+    },
+    {
+      "date": "2020-06-10",
+      "stock": "AAN",
+      "avg_polarity": -0.05625,
+      "avg_subjectivity": 0.0875,
+      "avg_vader_compound": -0.17
+    },
+    {
+      "date": "2020-06-10",
+      "stock": "AAP",
+      "avg_polarity": 0.0,
+      "avg_subjectivity": 0.0,
+      "avg_vader_compound": -0.296
+    },
+    {
+      "date": "2020-06-10",
+      "stock": "AAPL",
+      "avg_polarity": 0.1669191919191919,
+      "avg_subjectivity": 0.2517676767676768,
+      "avg_vader_compound": 0.19885
+    },
+    {
+      "date": "2020-06-10",
+      "stock": "ABBV",
+      "avg_polarity": 0.03125,
+      "avg_subjectivity": 0.65625,
+      "avg_vader_compound": 0.1779
+    },
+    {
+      "date": "2020-06-10",
+      "stock": "ABIO",
+      "avg_polarity": 0.16666666666666666,
+      "avg_subjectivity": 0.3333333333333333,
+      "avg_vader_compound": 0.19733333333333333
+    },
+    {
+      "date": "2020-06-10",
+      "stock": "ACGL",
+      "avg_polarity": 0.0,
+      "avg_subjectivity": 0.075,
+      "avg_vader_compound": 0.5267
+    },
+    {
+      "date": "2020-06-10",
+      "stock": "ACRX",
+      "avg_polarity": 0.0,
+      "avg_subjectivity": 0.0,
+      "avg_vader_compound": 0.3612
+    }
+  ],
+  "indicator_snapshot": [
+    {
+      "ticker": "AAPL",
+      "date": "2023-12-29 00:00:00+00:00",
+      "ma_5": 191.37467346191406,
+      "ma_20": 192.49063262939453,
+      "rsi_14": 51.12134654746493,
+      "macd": 1.5595388382318731,
+      "macd_signal": 2.424640125834707,
+      "macd_hist": -0.8651012876028337,
+      "bb_high_20": 196.8481017541414,
+      "bb_low_20": 188.13316350464765,
+      "bb_mavg_20": 192.49063262939453,
+      "volatility_20": 0.1441010738651605,
+      "pn_boll_upper_20": 196.96130162126425,
+      "pn_boll_lower_20": 188.0199636375248,
+      "pn_sma_20": 192.49063262939453
+    },
+    {
+      "ticker": "AMZN",
+      "date": "2023-12-29 00:00:00+00:00",
+      "ma_5": 153.0980010986328,
+      "ma_20": 149.82399978637696,
+      "rsi_14": 59.01225662889257,
+      "macd": 2.7820320006179884,
+      "macd_signal": 2.92304902522486,
+      "macd_hist": -0.14101702460687182,
+      "bb_high_20": 156.4883086029724,
+      "bb_low_20": 143.1596909697815,
+      "bb_mavg_20": 149.82399978637696,
+      "volatility_20": 0.18963806732875327,
+      "pn_boll_upper_20": 156.66143636381412,
+      "pn_boll_lower_20": 142.9865632089398,
+      "pn_sma_20": 149.82399978637696
+    },
+    {
+      "ticker": "MSFT",
+      "date": "2023-12-29 00:00:00+00:00",
+      "ma_5": 370.1094482421875,
+      "ma_20": 367.7916061401367,
+      "rsi_14": 57.95429647524692,
+      "macd": 2.653639782626101,
+      "macd_signal": 3.149603008000589,
+      "macd_hist": -0.4959632253744881,
+      "bb_high_20": 372.7470040288258,
+      "bb_low_20": 362.8362082514476,
+      "bb_mavg_20": 367.7916061401367,
+      "volatility_20": 0.1461624937730649,
+      "pn_boll_upper_20": 372.8757370999002,
+      "pn_boll_lower_20": 362.7074751803732,
+      "pn_sma_20": 367.7916061401367
+    },
+    {
+      "ticker": "GOOG",
+      "date": "2023-12-29 00:00:00+00:00",
+      "ma_5": 140.873974609375,
+      "ma_20": 135.97697906494142,
+      "rsi_14": 59.31306277441876,
+      "macd": 1.8428195739530793,
+      "macd_signal": 1.305947824644413,
+      "macd_hist": 0.5368717493086663,
+      "bb_high_20": 143.7983949766217,
+      "bb_low_20": 128.15556315326114,
+      "bb_mavg_20": 135.97697906494142,
+      "volatility_20": 0.2586394424036969,
+      "pn_boll_upper_20": 144.00158247297975,
+      "pn_boll_lower_20": 127.95237565690307,
+      "pn_sma_20": 135.97697906494142
+    },
+    {
+      "ticker": "META",
+      "date": "2023-12-29 00:00:00+00:00",
+      "ma_5": 353.4868530273437,
+      "ma_20": 336.8697875976562,
+      "rsi_14": 64.29680269349916,
+      "macd": 8.193281984388307,
+      "macd_signal": 6.693464330322933,
+      "macd_hist": 1.4998176540653736,
+      "bb_high_20": 364.3798571833614,
+      "bb_low_20": 309.35971801195103,
+      "bb_mavg_20": 336.8697875976562,
+      "volatility_20": 0.23122954243836516,
+      "pn_boll_upper_20": 365.094523456946,
+      "pn_boll_lower_20": 308.6450517383665,
+      "pn_sma_20": 336.8697875976562
+    },
+    {
+      "ticker": "NVDA",
+      "date": "2023-12-29 00:00:00+00:00",
+      "ma_5": 49.289285278320314,
+      "ma_20": 48.04600276947021,
+      "rsi_14": 58.310919249346895,
+      "macd": 0.6975322071299601,
+      "macd_signal": 0.6351578202031919,
+      "macd_hist": 0.06237438692676822,
+      "bb_high_20": 50.79902549803026,
+      "bb_low_20": 45.292980040910166,
+      "bb_mavg_20": 48.04600276947021,
+      "volatility_20": 0.27383623808060026,
+      "pn_boll_upper_20": 50.87054449177123,
+      "pn_boll_lower_20": 45.2214610471692,
+      "pn_sma_20": 48.04600276947021
+    }
+  ],
+  "pynance_growth_metrics": {},
+  "ticker_correlations": [
+    {
+      "ticker": "AAPL",
+      "sentiment_metric": "avg_polarity",
+      "correlation": -1.0,
+      "pair_count": 2
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment_metric": "avg_subjectivity",
+      "correlation": 1.0000000000000004,
+      "pair_count": 2
+    },
+    {
+      "ticker": "AAPL",
+      "sentiment_metric": "avg_vader_compound",
+      "correlation": 1.0000000000000002,
+      "pair_count": 2
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment_metric": "avg_polarity",
+      "correlation": NaN,
+      "pair_count": 0
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment_metric": "avg_subjectivity",
+      "correlation": NaN,
+      "pair_count": 0
+    },
+    {
+      "ticker": "AMZN",
+      "sentiment_metric": "avg_vader_compound",
+      "correlation": NaN,
+      "pair_count": 0
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment_metric": "avg_polarity",
+      "correlation": NaN,
+      "pair_count": 0
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment_metric": "avg_subjectivity",
+      "correlation": NaN,
+      "pair_count": 0
+    },
+    {
+      "ticker": "GOOG",
+      "sentiment_metric": "avg_vader_compound",
+      "correlation": NaN,
+      "pair_count": 0
+    },
+    {
+      "ticker": "META",
+      "sentiment_metric": "avg_polarity",
+      "correlation": NaN,
+      "pair_count": 0
+    },
+    {
+      "ticker": "META",
+      "sentiment_metric": "avg_subjectivity",
+      "correlation": NaN,
+      "pair_count": 0
+    },
+    {
+      "ticker": "META",
+      "sentiment_metric": "avg_vader_compound",
+      "correlation": NaN,
+      "pair_count": 0
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment_metric": "avg_polarity",
+      "correlation": NaN,
+      "pair_count": 0
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment_metric": "avg_subjectivity",
+      "correlation": NaN,
+      "pair_count": 0
+    },
+    {
+      "ticker": "MSFT",
+      "sentiment_metric": "avg_vader_compound",
+      "correlation": NaN,
+      "pair_count": 0
+    },
+    {
+      "ticker": "NVDA",
+      "sentiment_metric": "avg_polarity",
+      "correlation": NaN,
+      "pair_count": 0
+    },
+    {
+      "ticker": "NVDA",
+      "sentiment_metric": "avg_subjectivity",
+      "correlation": NaN,
+      "pair_count": 0
+    },
+    {
+      "ticker": "NVDA",
+      "sentiment_metric": "avg_vader_compound",
+      "correlation": NaN,
+      "pair_count": 0
+    }
+  ],
+  "overall_correlation": 0.33333333333333354
+}
